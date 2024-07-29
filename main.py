@@ -7,8 +7,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import time
+
 username = "your-email"
 password = "your-pass"
+
 #url = "https://www.linkedin.com/jobs/search/?currentJobId=3747974943&f_AL=true&origin=JOB_SEARCH_PAGE_JOB_FILTER"
 driver.get("https://www.linkedin.com/")
 time.sleep(4)
